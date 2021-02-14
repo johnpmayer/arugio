@@ -16,5 +16,5 @@ gloo-events = "0.1.1"
 web-sys = "0.3.45"
 bevy_web_fullscreen = { git = "https://github.com/ostwilkens/bevy_web_fullscreen.git" }
 turbulence = "0.3"
-bevy_networking_turbulence = { version = "0.1.0", default-features = false, features = ["use-webrtc"] }
+bevy_networking_turbulence = { git = "https://github.com/johnpmayer/bevy_networking_turbulence", branch = "rand-feature-dependency", default-features = false, features = ["use-webrtc"] }
 bevy = { version = "0.4.0", default-features = false, features = ["render"] }
